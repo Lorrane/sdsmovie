@@ -1,5 +1,5 @@
 import {
-  BrowserRouter, 
+  BrowserRouter,
   Routes,
   Route
 } from "react-router-dom";
@@ -11,13 +11,15 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar /> 
+      <Navbar />
       <Routes>
         <Route path="/" element={<Listing />} />
-        <Route path="/form/1" element={<Form />} />
+        <Route path="/form">
+          <Route path=":movieId" element={<Form />} />
+        </Route>
       </Routes>
     </BrowserRouter>
-    
+
   );
 }
 
