@@ -21,9 +21,15 @@ This project is an app to rate movies using an email address.
 - [x] Create responsive header
 - [x] Create CardComponent
 - [x] Configure Router
+- [x] Create Form
+- [x] Create Pagination
+- [x] Create Rates
+- [x] Configure Cards
+- [x] Configure Redirects
+- [ ] 
 
 
 ## Modelo 
-IF you like this discription and want to know how the project is now, just click <a href="https://https://lorrane-dsmovie.netlify.app/">here</a>.
+IF you like this idea and want to know how the project is now, just click <a href="https://https://lorrane-dsmovie.netlify.app/">here</a>.
 
 <img align=right alt="Developed by Lorrane" src="https://img.shields.io/badge/Developed%20 by-Lorrane-blue?logo=visual%20studio" />
